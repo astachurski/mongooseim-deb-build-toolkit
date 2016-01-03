@@ -13,9 +13,9 @@ cp ../Makefile .
 sed -i "s#@VER@#${VER}-${REV}#" debian/changelog
 
 
-sudo apt-get update
-#sudo apt-get install esl-erlang=1:17.5.3 libexpat1-dev -y
-sudo apt-get install libexpat1-dev -y
+# sudo apt-get update
+# sudo apt-get install esl-erlang=1:17.5.3 libexpat1-dev -y
+# sudo apt-get install libexpat1-dev -y
 
 
 cd ..
