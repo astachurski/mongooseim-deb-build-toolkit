@@ -7,7 +7,7 @@ git clone git://github.com/esl/MongooseIM.git mongooseim
 cd mongooseim
 git checkout ${VER}
 
-sudo adduser --quiet --system --shell /bin/sh --group mongooseim
+# sudo adduser --quiet --system --shell /bin/sh --group mongooseim
 cp -r ../debian debian
 cp ../Makefile .
 sed -i "s#@VER@#${VER}-${REV}#" debian/changelog
